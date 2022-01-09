@@ -1,0 +1,4 @@
+ border-radius: 23px 23px 23px 23px;
+    -moz-border-radius: 23px 23px 23px 23px;
+    -webkit-border-radius: 23px 23px 23px 23px;
+    border: 1px solid #c7c7c7;

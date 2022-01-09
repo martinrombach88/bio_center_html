@@ -1,0 +1,145 @@
+body {
+  font-family: "Baloo Bhaina 2", monospace;
+  margin: auto;
+}
+
+#portfolioLink {
+  font-size: 18px;
+  color: crimson;
+  float: right;
+  padding-right: 42px;
+}
+
+#portfolioLink:hover {
+  font-size: 18px;
+  color: blue;
+}
+
+.navcontainer {
+  position: fixed;
+  width: 80%;
+  padding-top: 10px;
+  text-align: center;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #c7c7c7;
+}
+
+.border {
+  border-radius: 23px 23px 23px 23px;
+  -moz-border-radius: 23px 23px 23px 23px;
+  -webkit-border-radius: 23px 23px 23px 23px;
+  border: 1px solid #c7c7c7;
+}
+
+.logo {
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  width: 300px;
+  padding-top: 0px;
+}
+
+nav {
+  float: right;
+  z-index: 3;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 5px;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 80px;
+  padding-top: 0px;
+}
+
+a {
+  color: rgb(127, 127, 127);
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(20, 162, 216);
+}
+
+.article-container {
+  margin-top: 25px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.hometext {
+  padding: 10px;
+  font-size: 15px;
+  margin-top: 25px;
+  text-align: center;
+}
+
+#homepic {
+  padding: 10px;
+  margin-top: 10px;
+  width: 85%;
+  height: 100%;
+}
+
+/*M PRODUCTS */
+
+.maskinfo {
+  text-align: center;
+  width: 500px;
+  padding: 15px;
+  display: inline-block;
+}
+
+.maskinfo ul {
+  list-style-type: none;
+}
+
+.video {
+  display: inline-block;
+  padding: 10px;
+  width: 650px;
+  z-index: 1;
+}
+
+#vheader {
+  border-style: hidden;
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
+}
+
+/* CONTACT CLASSES */
+
+h1 {
+  font-size: 24px;
+}
+
+.ecoreen-article {
+  padding: 15px;
+}
+
+.maskinfo ul li {
+  text-decoration: none;
+}
+
+.flag {
+  width: 30%;
+}
+
+#contact {
+  margin-left: 300px;
+  margin-right: 300px;
+  padding: 10px;
+}
